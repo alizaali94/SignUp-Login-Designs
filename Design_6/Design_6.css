@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container{
+    background-color: #E3E7F6;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 13px 4px grey;
+}
+.LSec{
+    width: 50%;
+    color: white;
+}
+.Image{
+    background-image: url(Images/Blue.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Logo{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: left;
+    margin-inline: 20px;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+.Logo a{
+    color: white;
+    text-decoration: none;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Inner p, h1{
+    margin: 0px;
+    font-weight: 500;
+}
+.Inner p{
+    font-size: large;
+}
+.Inner h1{
+    letter-spacing: 5px;
+}
+.Bar{
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    width: 10%;
+    background-color: white;
+    height: 1vh;
+    margin-top: 2px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    margin-block: 12px;
+}
+.para p{
+    width: 60%;
+    font-size: 12px;
+}
+.RSec{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.formArea{
+    width: 70%;
+}
+.upperSection{
+    margin-top: 15vh;
+}
+.upperSection h1{
+    color: #0B7EF4;
+}
+.upperSection p{
+    font-size: 12px;
+    color: lightgrey;
+}
+form{
+    margin-top: 10vh;
+}
+.formfield{
+    margin-block: 20px;
+}
+.formfield input{
+    padding: 15px;
+    width: 100%;
+    border-left: 5px solid #0B7EF4;
+    color: lightgrey;
+    background-color: #F7F7F7;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    outline: none;
+}
+.formcheck{
+    display: flex;
+    justify-content: space-between;
+    color: lightgrey;
+    font-size: 12px;
+}
+.formcheck a{
+    text-decoration: none;
+}
+.formfield button{
+    color: white;
+    background-color: #0B7EF4;
+    border: 0px;
+    width: 60%;
+    padding: 15px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.copyright{
+    padding-top: 15px;
+}
+

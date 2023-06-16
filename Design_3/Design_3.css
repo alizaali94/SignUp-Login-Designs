@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.box{
+    width: 60%;
+    box-shadow: 0px 4px 13px 3px grey;
+    border-radius: 30px;
+}
+.section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.LSec{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.LSec h1{
+    color: #753CAC;
+}
+.formfield{
+    margin: 20px;
+}
+.formfield i{
+    position: absolute;
+    padding-left: 12px;
+    padding-top: 9px;
+    color: #753CAC;
+    font-size: 15px;
+}
+.formfield input{
+    padding: 10px;
+    padding-left: 7vh;
+    width: 90%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0px 3px 10px 2px grey;
+}
+.agree{
+    font-size: 15px;
+    color: grey;
+}
+.formbutton{
+    margin: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.formbutton button{
+    color: white;
+    background-color: #753CAC;
+    border-radius: 40px;
+    width: 90%;
+    border: none;
+    padding: 15px;
+}
+.RSec{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+    border-radius: 30px;
+}
+.info{
+    width: 80%;
+    color: white;
+}
+.RSec h1{
+    margin: 0px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.RSec p{
+    font-size: 15px;
+    color: #DD86F2;
+}
+.RSec button{
+    padding: 15px 25px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px;
+    background-color: transparent;
+    box-shadow: 0px 2px 25px 4px #c148f5;
+}
+.background{
+    background: linear-gradient(to bottom left, #9F02E4, #E73EFD);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

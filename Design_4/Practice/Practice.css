@@ -1,0 +1,471 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.Image {
+    background-image: url(Images/Uni.png);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)), url(Images/Uni.png);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Header {
+    width: 100%;
+    display: flex;
+    padding-left: 20vh;
+    padding-top: 10vh;
+    height: 70vh;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inner {
+    width: 38%;
+}
+
+.inner h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.inner button {
+    border: none;
+    background-color: #4FBD74;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-block: 20px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 5vh;
+}
+
+.con {
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: #e2dede;
+    padding-block: 50px;
+}
+
+.fea {
+    display: flex;
+    justify-content: center;
+}
+
+.key {
+    width: 60%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh;
+}
+
+.boxes {
+    width: 23%;
+    color: #fff;
+    background-color: #4FBD74;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+}
+
+.cards {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid rgb(187, 184, 184);
+    box-shadow: 0px 1px 10px 2px rgb(187, 184, 184);
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.cname {
+    text-align: left;
+    background-color: #4FBD74;
+    color: #fff;
+    margin: 0px;
+    padding: 15px 10px;
+}
+
+.adj {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.content {
+    width: 80%;
+}
+
+.content button {
+    color: #fff;
+    background-color: #4FBD74;
+    border-radius: 2px;
+    padding: 8px 5px;
+    border: none;
+    margin-block: 20px;
+}
+
+.content button:hover {
+    background-color: #fff;
+    color: #4FBD74;
+}
+
+.font i {
+    color: #F2BE64;
+}
+
+.Latest {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.cards1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.card1 {
+    width: 50%;
+    display: flex;
+    margin-right: 30px;
+    text-align: left;
+    border: 1px solid #e2dede;
+    box-shadow: 0px 1px 5px 0px rgb(187, 184, 184);
+}
+
+.card2 {
+    width: 50%;
+    display: flex;
+    text-align: left;
+    border: 1px solid #e2dede;
+    box-shadow: 0px 1px 5px 0px rgb(187, 184, 184);
+}
+
+.h3 {
+    font-weight: 100;
+}
+
+.image img {
+    height: 205px;
+    display: block;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anc {
+    padding-top: 12px;
+}
+
+.planing {
+    padding-left: 12px;
+}
+
+.cards2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cards2 img {
+    display: block;
+}
+
+.teacher {
+    background-color: #4FBD74;
+    text-align: left;
+    color: white;
+    padding: 7px 0px 6px 7px;
+}
+
+.teacher h3,
+p {
+    margin: 0px;
+    font-weight: 100;
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 768px)and (max-width: 1023px) {
+    .Image {
+        height: auto;
+        background-position: none;
+    }
+
+    .inner {
+        width: 50%;
+    }
+
+    .Header {
+        padding-left: 20px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .boxes {
+        width: 35%;   
+        margin-bottom: 15px;
+    }
+
+    .section1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 65%;
+        margin-bottom: 15px;
+    }
+
+    .cards1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card1 {
+        width: 65%;
+        flex-wrap: wrap;
+        margin: 0px 0px 20px 0px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .card2 {
+        width: 65%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .planing {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .Fm {
+        width: 35%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .Fm img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 960px)and (max-width: 1023px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .Image {
+        height: auto;
+        background-position: none;
+    }
+
+    .inner {
+        width: 70%;
+    }
+
+    .Header {
+        padding-left: 20px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .boxes {
+        width: 60%;
+        margin-bottom: 15px;
+    }
+
+    .section1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 75%;
+        margin-bottom: 15px;
+    }
+
+    .cards1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card1 {
+        width: 75%;
+        flex-wrap: wrap;
+        margin: 0px 0px 20px 0px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .card2 {
+        width: 75%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .planing {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Fm {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .Image {
+        height: auto;
+        background-position: none;
+    }
+
+    .inner {
+        width: 80%;
+    }
+
+    .Header {
+        padding-left: 12px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .boxes {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .section1 {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .card1 {
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 0px 0px 20px 0px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .card2 {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .cards1 {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        flex-wrap: wrap
+    }
+
+    .planing {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Fm {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    width: 60%;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    box-shadow: 0px 3px 9px 6px grey;
+}
+
+.Lsec {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 40vh;
+    padding-inline: 7vh;
+}
+
+.Image {
+    background: linear-gradient(0deg, rgba(155, 106, 221, 0.3), rgba(155, 106, 221, 0.8)), url(Images/Lighthouse.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Lsec h1{
+    margin-bottom: 3px;
+}
+
+.Lsec p {
+    margin-top: 0px;
+}
+
+.contact{
+    border-top: 1px solid rgba(155, 106, 221);
+    padding-top: 10px;
+}
+.Rsec{
+    width: 40%;
+}
+.inner{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Head{
+    text-align: center;
+}
+.Head h1{
+    color: rgba(155, 106, 221);
+}
+.Head h1 i{
+    font-size: 27px;
+    margin-right: 2px;
+}
+.formfield{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.label{
+    padding-bottom: 5px;
+}
+.formfield .input input{
+    width: 90%;
+    padding-left: 5px;
+    padding-block: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+}
+.pa-ch{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.Password a{
+    color: black;
+    text-decoration: none;
+}
+.formbutton{
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+}
+.formbutton button{
+    color:white;
+    background-color: rgba(155, 106, 221);
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    padding: 12px 40px;
+}
+.font{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.font i{
+    margin-top: 0px;
+    font-size: 25px;
+    color: #fff;
+    margin: 5px;
+    border-radius: 50%;
+}
+.facebook i{
+    background-color: #3F568E;
+    padding: 10px 15px;
+}
+.twitter i{
+    background-color: #1CA1EC;
+    padding: 10px;
+}
+.pinterest i{
+    background-color: #E04540;
+    padding: 10px;
+}
+.linkedin i{
+    background-color: #0276AF;
+    padding: 10px;
+}
+.copyright{
+    text-align: center;
+    padding-left: 10px;
+}
+.copyright p{
+    color: grey;
+}
